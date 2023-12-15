@@ -70,12 +70,56 @@ html {
     color: #ffa500;
 }
 
+/* first section*/
 
 .first-section {
     width: 100vw;
     height: 100vh;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(/img/back_first.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.first-section .conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section h1 {
+    color: #ffa500;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.buttons button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    background-color: #ffa500;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    transition: 400ms ease-in;
+}
+
+.buttons button:hover {
+    border: 1px solid #ffa500;
+    background-color: transparent;
+    color: #ffa500;
+}
+
+.buttons {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
 }
