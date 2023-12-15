@@ -123,3 +123,48 @@ html {
     display: flex;
     justify-content: space-between;
 }
+
+/* sobre nos*/
+
+.sobre-nos {
+    width: 100%;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1e1f;
+    color: white;
+}
+
+.sobre-nos img {
+    width: 300px;
+    height: 300px;
+    margin-top: 35px;
+    margin-left: 10px;
+    border: 2px solid rgb(155, 155, 155);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-sobre h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+
+}
+
+.content-sobre p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
+}
