@@ -254,3 +254,31 @@ html {
     color: white;
     background-color: #5e5252;
 }
+
+/* contatos */
+
+.contatos {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.contatos h3 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.secao-contatos {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.secao-contatos div:hover {
+    color: #ffa500;
+}
